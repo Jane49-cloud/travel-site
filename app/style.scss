@@ -1,0 +1,64 @@
+ $primary: #7e7eeb; 
+ $text:black;
+ $pure:#ffffff;
+
+
+header {
+  background: rgb(78, 78, 107);
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  color: $text;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+
+  a{
+    color: $text;
+    text-decoration: none;    
+  }
+  
+  nav{
+    display: flex;
+    margin-right: 20px;
+
+    li{
+      list-style: none;
+      display: inline;
+      margin: 5px;
+
+    } 
+  }  
+ }
+
+ .large-hero{
+.content{ 
+position: relative;
+bottom:350px;
+margin: auto;
+width: 400px;
+h1,h2{
+  color:rgb(25, 25, 85)
+}
+p{
+  color: $pure;}
+  button{
+    background: #ff4500;
+    border: none;
+    width: 200px;
+    height: 50px;
+
+    a{
+      box-sizing: border-box;
+      color:white;
+      text-decoration: none;
+      }
+
+  }
+
+}
+img{
+  width: 100vw;
+}
+
+ }
